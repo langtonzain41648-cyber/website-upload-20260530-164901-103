@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索-精选国产视频-高清影视片库-高清视频在线观看</title>
+  <meta name="description" content="搜索精选国产视频高清影视片库，可按片名、地区、年份、类型和标签快速查找影片。">
+  <meta name="keywords" content="精选国产视频,国产视频,高清影视,视频片库,高清视频,热门视频,分类浏览,搜索,影片搜索">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/search-data.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="./index.html" aria-label="精选国产视频">
+        <span class="brand-mark">精</span>
+        <span>
+          <strong>精选国产视频</strong>
+          <em>高清影视片库</em>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false">菜单</button>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="./index.html">首页</a>
+        <details>
+          <summary>分类</summary>
+          <div class="nav-menu">
+              <a href="./category-mainland.html">国产精选</a>
+              <a href="./category-asia.html">日韩港台</a>
+              <a href="./category-europe-america.html">欧美影院</a>
+              <a href="./category-drama.html">剧情文艺</a>
+              <a href="./category-suspense.html">悬疑犯罪</a>
+              <a href="./category-action.html">动作冒险</a>
+              <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+              <a href="./category-romance-youth.html">爱情青春</a>
+              <a href="./category-comedy-family.html">喜剧治愈</a>
+              <a href="./category-animation-variety.html">动画纪录</a>
+          </div>
+        </details>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">排行榜</a>
+        <a href="./search.html" class="active">搜索</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero" style="--hero-img: url('./47.jpg')">
+      <div class="container">
+        <h1>影片搜索</h1>
+        <p>输入片名、地区、年份、类型或标签，快速查找片库中的高清影视内容。</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form class="search-card" action="./search.html" method="get">
+          <input class="search-input" type="search" name="q" placeholder="例如：剧情、悬疑、2025、中国大陆" aria-label="搜索关键词">
+          <button class="btn btn-primary" type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="gradient-title">搜索结果</h2>
+            <p>结果会根据关键词匹配片名、简介、地区、类型、年份和标签。</p>
+          </div>
+        </div>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <strong>精选国产视频</strong>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">热度排行</a>
+      <a href="./category-mainland.html">国产精选</a> <a href="./category-asia.html">日韩港台</a> <a href="./category-europe-america.html">欧美影院</a> <a href="./category-drama.html">剧情文艺</a> <a href="./category-suspense.html">悬疑犯罪</a> <a href="./category-action.html">动作冒险</a>
+    </div>
+    <p>© 2026 精选国产视频 · 高清影视片库 · 精选国产视频栏目汇总多类型视频内容，提供清晰分类与持续更新的片库。</p>
+  </footer>
+  <script defer src="./assets/site.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
